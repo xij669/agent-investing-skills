@@ -1,8 +1,8 @@
-# Agent Investing Skills
+# 13F Reality Validation
 
-Open investment-research workflows for AI agents.
+An AI-agent skill for finding institutional accumulation signals, then validating the thesis with real-world price, supply-demand, and financial data.
 
-This repository publishes reusable agent skills for structured investment research. The first skill is a **13F + Reality Validation** workflow: use institutional 13F accumulation as a discovery signal, then validate the underlying thesis with real-world prices, supply-demand data, financial transmission, valuation, and crowding checks.
+This repository publishes a reusable **13F + Reality Validation** investment research skill: use institutional 13F accumulation as a discovery signal, then validate the underlying thesis with real-world prices, supply-demand data, financial transmission, valuation, and crowding checks.
 
 > Not financial advice. These are research workflows for evidence collection and thesis validation.
 
@@ -35,7 +35,7 @@ Core idea:
 Install directly from the raw `SKILL.md` URL:
 
 ```bash
-hermes skills install https://raw.githubusercontent.com/xij669/agent-investing-skills/main/skills/13f-reality-validation-investing/SKILL.md
+hermes skills install https://raw.githubusercontent.com/xij669/13f-reality-validation/main/skills/13f-reality-validation-investing/SKILL.md
 ```
 
 Then use it in a session:
@@ -56,7 +56,7 @@ If your agent does not support Hermes skills directly, give it the raw `SKILL.md
 
 ```text
 Read and follow this investment research workflow:
-https://raw.githubusercontent.com/xij669/agent-investing-skills/main/skills/13f-reality-validation-investing/SKILL.md
+https://raw.githubusercontent.com/xij669/13f-reality-validation/main/skills/13f-reality-validation-investing/SKILL.md
 ```
 
 ## Repository structure
